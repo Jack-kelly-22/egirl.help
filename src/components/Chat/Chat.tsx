@@ -151,7 +151,7 @@ export default function Chat() {
   }, [getAgentReplyMutation, userId, loaded, setLoaded]);
 
   return (
-    <div className="grid h-full h-full grid-cols-7">
+    <div className="grid h-full  bg-pink-400 grid-cols-7">
       <div className="col-span-3 ">
         Empathy
         <div>{empathy}</div>
